@@ -7,8 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-28 18:11+0600\n"
+"POT-Creation-Date: 2021-11-16 02:44+0300\n"
 "PO-Revision-Date: 2020-09-28 18:19+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,8 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.4.1\n"
 
 #: admin_helpers.py:122
@@ -38,119 +38,147 @@ msgstr "Действие отменено пользователем"
 msgid "Purge all %s ... are you sure?"
 msgstr "Удалить все %s ... вы уверены?"
 
-#: models.py:15
+#: apps.py:7
+msgid "Easy Audit Application"
+msgstr "Аудит активности"
+
+#: models.py:19
 msgid "Create"
 msgstr "Создание"
 
-#: models.py:16
+#: models.py:20
 msgid "Update"
 msgstr "Обновление"
 
-#: models.py:17
+#: models.py:21
 msgid "Delete"
 msgstr "Удаление"
 
-#: models.py:18
+#: models.py:22
 msgid "Many-to-Many Change"
 msgstr "Изменение многие ко многим"
 
-#: models.py:19
+#: models.py:23
 msgid "Reverse Many-to-Many Change"
 msgstr "Изменение обратного многие ко многим"
 
-#: models.py:22 models.py:60
+#: models.py:24
+#, fuzzy
+#| msgid "Many-to-Many Change"
+msgid "Many-to-Many Add"
+msgstr "Изменение многие ко многим"
+
+#: models.py:25
+#, fuzzy
+#| msgid "Reverse Many-to-Many Change"
+msgid "Reverse Many-to-Many Add"
+msgstr "Изменение обратного многие ко многим"
+
+#: models.py:26
+#, fuzzy
+#| msgid "Many-to-Many Change"
+msgid "Many-to-Many Remove"
+msgstr "Изменение многие ко многим"
+
+#: models.py:27
+#, fuzzy
+#| msgid "Reverse Many-to-Many Change"
+msgid "Reverse Many-to-Many Remove"
+msgstr "Изменение обратного многие ко многим"
+
+#: models.py:30 models.py:68
 msgid "Event type"
 msgstr "Тип события"
 
-#: models.py:23
+#: models.py:31
 msgid "Object ID"
 msgstr "ID объекта"
 
-#: models.py:24
+#: models.py:32
 msgid "Content type"
 msgstr "Тип содержимого"
 
-#: models.py:25
+#: models.py:33
 msgid "Object representation"
 msgstr "Представление объекта"
 
-#: models.py:26
+#: models.py:34
 msgid "Object JSON representation"
 msgstr "JSON представление объекта"
 
-#: models.py:27
+#: models.py:35
 msgid "Changed fields"
 msgstr "Изменившиеся поля"
 
-#: models.py:30 models.py:64 models.py:80
+#: models.py:38 models.py:72 models.py:88
 msgid "User"
 msgstr "Пользователь"
 
-#: models.py:32
+#: models.py:40
 msgid "String version of the user pk"
 msgstr "Строковая версия ПК пользователя"
 
-#: models.py:32
+#: models.py:40
 msgid "User PK as string"
 msgstr "ПК пользователя как строка"
 
-#: models.py:33 models.py:66 models.py:82
+#: models.py:41 models.py:74 models.py:90
 msgid "Date time"
 msgstr "Дата время"
 
-#: models.py:45
+#: models.py:53
 msgid "CRUD event"
 msgstr "CRUD событие"
 
-#: models.py:46
+#: models.py:54
 msgid "CRUD events"
 msgstr "CRUD события"
 
-#: models.py:56
+#: models.py:64
 msgid "Login"
 msgstr "Вход"
 
-#: models.py:57
+#: models.py:65
 msgid "Logout"
 msgstr "Выход"
 
-#: models.py:58
+#: models.py:66
 msgid "Failed login"
 msgstr "Неудачная попытка входа"
 
-#: models.py:61
+#: models.py:69
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: models.py:65 models.py:81
+#: models.py:73 models.py:89
 msgid "Remote IP"
 msgstr "Удаленный IP"
 
-#: models.py:69
+#: models.py:77
 msgid "login event"
 msgstr "событие входа"
 
-#: models.py:70
+#: models.py:78
 msgid "login events"
 msgstr "События входа"
 
-#: models.py:75
+#: models.py:83
 msgid "URL"
 msgstr "Адрес"
 
-#: models.py:76
+#: models.py:84
 msgid "Method"
 msgstr "Метод"
 
-#: models.py:77
+#: models.py:85
 msgid "Query string"
 msgstr "Запрос"
 
-#: models.py:85
+#: models.py:93
 msgid "request event"
 msgstr "Событие запроса"
 
-#: models.py:86
+#: models.py:94
 msgid "request events"
 msgstr "События запроса"
 
